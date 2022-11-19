@@ -1,0 +1,50 @@
+#whole-template {
+    display: none;
+}
+
+#cv-template-1 {
+    border: 2px solid black;
+}
+
+.myimg {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.background {
+    background-color: beige;
+}
+
+.btnGroup {
+    background-color: blue;
+}
+
+.margin-left {
+    margin-right: 20;
+}
+
+.img-inp {
+    width: 300px;
+    height: 100px;
+}
+
+.tmp-1 {
+    background-color: aquamarine;
+}
+
+.tmp-2 {
+    background-color: rgb(126, 175, 47);
+}
+
+.tmp-3 {
+    background-color: rgb(234, 119, 77);
+}
+
+.flex {
+    display: flex;
+}
+
+.static {
+    position: absolute;
+    bottom: 0;
+}
