@@ -63,19 +63,23 @@ function generateCV() {
 
   document.getElementById("cv-form").style.display = "none";
   document.getElementById("whole-template").style.display = "flex";
+  document.getElementById("mainpage").style.display = "none";
+  document.getElementById("nav").style.display = "none";
 }
 
 function printCV() {
   document.getElementById("btnGroup").style.display = "none";
   document.getElementById("prev-temp").style.display = "none";
   document.getElementById("next-temp").style.display = "none";
+  // document.getElementById("cv-template-1").style.width = "100%";
+  document.getElementById("cv-template-1").style.border = "none";
   window.print();
   document.getElementById("btnGroup").style.display = "block";
 }
 
 function resetCV() {
   document.getElementById("cv-form").style.display = "block";
-  document.getElementById("cv-template").style.display = "none";
+  document.getElementById("cv-template-1").style.display = "none";
 }
 
 templateList = ["tmp-1", "tmp-2", "tmp-3"];
