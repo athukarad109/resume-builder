@@ -4,6 +4,11 @@
 
 #cv-template-1 {
     border: 2px solid black;
+    max-height: 95%;
+    /* width: 65%; */
+    display: inline-block;
+    background-color: blueviolet;
+    overflow-y: visible;
 }
 
 .myimg {
@@ -47,4 +52,34 @@
 .static {
     position: absolute;
     bottom: 0;
+    margin: 2px;
+}
+
+.left {
+    left: 45%
+}
+
+.draggable {
+    /* width: auto; */
+    max-width: 30%;
+    max-height: 10%;
+}
+
+.w3-quarter {
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.y-15 {
+    margin-top: 50px;
+}
+
+.landing {
+    margin-bottom: 100px;
+    overflow-x: auto;
+    max-width: 95%;
+}
+
+.temp-img {
+    margin: 2px;
 }
